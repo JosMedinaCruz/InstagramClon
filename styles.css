@@ -1,0 +1,100 @@
+:root{
+  --white: #ffffff;
+  --grey: #fafafa;
+  --blue: #0095f6;
+}
+
+.bg-grey{background-color: var(--grey);}
+.bg-light{background-color: var(--light) !important;}
+
+.navbar{
+  min-height: 4rem;
+}
+
+a{
+  color: var(--blue);
+}
+
+.py-6{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+i.lead{
+  font-size: 1.5rem;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+.navbar-collaps {
+    /* flex-basis: 100%; */
+    flex-grow: 1
+    align-items: center;
+}
+
+.profile-picture{
+  background-image: url('img/yellow.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+
+}
+
+.profile-picturePS{
+  background-image: url('img/playstation.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.profile-pictureFS{
+  background-image: url('img/sekiro.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.profile-pictureG{
+  background-image: url('img/gp.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.profile-pictureW{
+  background-image: url('img/wp.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.profile-pictureS{
+ background-image: url('img/sp.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.profile-pictureMGS{
+ background-image: url('img/mgs.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.profile-picturePunch{
+ background-image: url('img/punch.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.profile-pictureBD{
+  background-image: url('img/bd.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.profile-pictureH{
+  background-image: url('img/h.jpg');
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+
+}
+

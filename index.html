@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--     -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--  Bootstrap CSS   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/40c159dec6.js" crossorigin="anonymous"></script>
+
+    <title>Bootstrap demo</title>
+  </head>
+<body class="bg-grey">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+   <div class="container display-flex justify-content-space-between">
+    <div>
+     <a class="navbar-brand border-right pr-4" href="#"><i class="fab fa-instagram"></i></a>
+     <img src="img/pngegg.png" class="img-fluid "/>
+     </div>
+     <form class="d-flex position-relative">
+         <input class="form-control bg-grey border text-center me-2" type="search" placeholder="Buscar" aria-label="Search">
+         <button class="btn btn-link text-muted position-absolute" type="submit"><i class="fas fa-search"></i></button>
+       </form>
+     <div class="navbar-collaps w-auto" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+             <a class="nav-link" href="#"><i class="far fa-compass lead text-dark mr-3"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#"><i class="far fa-heart lead text-dark mr-3"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#"><i class="far fa-user lead text-dark"></i></a>
+           </li>
+         </ul>
+     </div>
+   </div>
+ </nav>
+
+ <section class="py-6">
+   <div class="container">
+     <div class="row">
+      <div class="col-lg-8">
+<!--   Publicaciones  -->
+          <div class="card mb-4">
+            <div class="card-body d-flex">
+              <div class="d-flex flex-grow-1">
+              <div class="profile-picturePS rounded-circle me-3"></div>
+                 <a href="#" class="text-dark text-decoration-none font-weight-bold aling-self-xl-center"><p><strong>PlayStation Latinoamérica </strong></p></a>
+              </div>
+              <div class="aling-self-center">
+                <i class="fa fa-ellipsis-v lead text-dark"></i>
+              </div>
+            </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/stray.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <video autoplay loop muted class="video">
+                                  <source  class="class="d-block w-100 src="./vid/stray.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/stray2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-grow-1">
+                  <i class="far fa-heart lead me-3"></i>
+                  <i class="far fa-comment lead me-3"></i>
+                  <i class="far fa-paper-plane lead me-3"></i>
+                </div>
+                <div>
+                  <i class="far fa-bookmark lead me-3"></i>
+                </div>
+              </div>
+              <p class="font-weight-bold"><strong>190 Me gusta</strong></p>
+              <p class="mb-0"><a href="" class="text-dark text-decoration-none font-weight-bold"><strong>PlayStation Latinoamérica</strong></a> Adéntrate en una ciberciudad llena de robots y averigua cómo escapar de ella siendo un gato callejero. Stray ya disponible.</p>
+              <div class="d-flex mb-3">
+                <p class="flex-grow-1 mb-0"><a class="text-dark text-decoration-none font-weight-bold"><b>adrianjk</b></a> Está increible el nuevo juego!!</p>
+                <i class="far fa-heart"></i>
+              </div>
+              <small class="d-block text-muted text-upercase">Hace 8 horas</small>
+            </div>
+              <div class="d-flex border-top py-3 px-2">
+                <input type="text" class="form-control border-0" placeholder="Agrega un comentario...">
+                <button type="submit" class="btn btn-link text-decoration-none font-weight-bold">Publicar</button>
+              </div>
+            </div>
+<!--     -->
+          <div class="card mb-4">
+            <div class="card-body d-flex">
+              <div class="d-flex flex-grow-1">
+              <div class="profile-pictureFS rounded-circle me-3"></div>
+                 <a href="#" class="text-dark text-decoration-none font-weight-bold aling-self-xl-center"><p><strong>fromsoftware</strong></p></a>
+              </div>
+              <div class="aling-self-center">
+                <i class="fa fa-ellipsis-v lead text-dark"></i>
+              </div>
+            </div>
+                <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/sekiro.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <video autoplay loop muted class="video">
+                          <source  class="class="d-block w-100 src="./vid/sekiro.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-grow-1">
+                  <i class="far fa-heart lead me-3"></i>
+                  <i class="far fa-comment lead me-3"></i>
+                  <i class="far fa-paper-plane lead me-3"></i>
+                </div>
+                <div>
+                  <i class="far fa-bookmark lead me-3"></i>
+                </div>
+              </div>
+              <p class="font-weight-bold"><strong>90 Me gusta</strong></p>
+              <p class="mb-0"><a href="" class="text-dark text-decoration-none font-weight-bold"><strong>fromsoftware</strong></a> 'Sekiro: Shadows Die Twice' is coming very soon. Check out the new trailer </p>
+              <div class="d-flex mb-3">
+                <p class="flex-grow-1 mb-0"><a class="text-dark text-decoration-none font-weight-bold"><b>agoyourlego</b></a> Sekiro more like seki bro why is this game so bad</p>
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="d-flex mb-3">
+                <p class="flex-grow-1 mb-0"><a class="text-dark text-decoration-none font-weight-bold"><b>nava_tattoo</b></a>This is the best game you guys created so far. Thank you.</p>
+                <i class="far fa-heart"></i>
+              </div>
+              <small class="d-block text-muted text-upercase">Hace 2 horas</small>
+            </div>
+              <div class="d-flex border-top py-3 px-2">
+                <input type="text" class="form-control border-0" placeholder="Agrega un comentario...">
+                <button type="submit" class="btn btn-link text-decoration-none font-weight-bold">Publicar</button>
+              </div>
+            </div>
+<!--     -->
+            <div class="card mb-4">
+              <div class="card-body d-flex">
+                <div class="d-flex flex-grow-1">
+                <div class="profile-picture rounded-circle me-3"></div>
+                   <a href="#" class="text-dark text-decoration-none font-weight-bold "><p><strong>cochesdeportivos</strong></p></a>
+                </div>
+                <div class="aling-self-center">
+                  <i class="fa fa-ellipsis-v lead text-dark"></i>
+                </div>
+              </div>
+                  <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/car1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/car2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/car3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              <div class="card-body">
+                <div class="d-flex">
+                  <div class="flex-grow-1">
+                    <i class="far fa-heart lead me-3"></i>
+                    <i class="far fa-comment lead me-3"></i>
+                    <i class="far fa-paper-plane lead me-3"></i>
+                  </div>
+                  <div>
+                    <i class="far fa-bookmark lead me-3"></i>
+                  </div>
+                </div>
+                <p class="font-weight-bold"><strong>10 Me gusta</strong></p>
+                <p class="mb-0"><a href="" class="text-dark text-decoration-none font-weight-bold"><strong>cochesdeportivos</strong></a> Nuevo record de aceleración, de 0 a 100km en 2s.</p>
+                <div class="d-flex mb-3">
+                  <p class="flex-grow-1 mb-0"><a class="text-dark text-decoration-none font-weight-bold"><b>adrianjk</b></a> Está increible el nuevo modelo!!</p>
+                  <i class="far fa-heart"></i>
+                </div>
+                <small class="d-block text-muted text-upercase">Hace 4 horas</small>
+              </div>
+                <div class="d-flex border-top py-3 px-2">
+                  <input type="text" class="form-control border-0" placeholder="Agrega un comentario...">
+                  <button type="submit" class="btn btn-link text-decoration-none font-weight-bold">Publicar</button>
+                </div>
+              </div>
+<!--     -->
+          <div class="card mb-4">
+            <div class="card-body d-flex">
+              <div class="d-flex flex-grow-1">
+              <div class="profile-pictureG rounded-circle me-3"></div>
+                 <a href="#" class="text-dark text-decoration-none font-weight-bold aling-self-xl-center"><p><strong>guitarcenter</strong></p></a>
+              </div>
+              <div class="aling-self-center">
+                <i class="fa fa-ellipsis-v lead text-dark"></i>
+              </div>
+            </div>
+                <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/g.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/g2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <video autoplay loop muted class="video">
+                          <source  class="class="d-block w-100 src="./vid/guitarra.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-grow-1">
+                  <i class="far fa-heart lead me-3"></i>
+                  <i class="far fa-comment lead me-3"></i>
+                  <i class="far fa-paper-plane lead me-3"></i>
+                </div>
+                <div>
+                  <i class="far fa-bookmark lead me-3"></i>
+                </div>
+              </div>
+              <p class="font-weight-bold"><strong>200 Me gusta</strong></p>
+              <p class="mb-0"><a href="" class="text-dark text-decoration-none font-weight-bold"><strong>guitarcenter</strong></a> Singer-songwriter @charlie_hickey_ has a play on the @gibsonguitar Generation G-Writer, sharing his first impressions on the immersive experience produced by its Player Port soundhole design.</p>
+              <div class="d-flex mb-3">
+                <p class="flex-grow-1 mb-0"><a class="text-dark text-decoration-none font-weight-bold"><b>rulesarerules</b></a>@guitarcenter give us dark mode on the app</p>
+                <i class="far fa-heart"></i>
+              </div>
+              <small class="d-block text-muted text-upercase">Hace 12 horas</small>
+            </div>
+              <div class="d-flex border-top py-3 px-2">
+                <input type="text" class="form-control border-0" placeholder="Agrega un comentario...">
+                <button type="submit" class="btn btn-link text-decoration-none font-weight-bold">Publicar</button>
+              </div>
+            </div>
+<!--     -->
+            <div class="card mb-4">
+              <div class="card-body d-flex">
+                <div class="d-flex flex-grow-1">
+                <div class="profile-pictureW rounded-circle me-3"></div>
+                   <a href="#" class="text-dark text-decoration-none font-weight-bold "><p><strong>Whitechapel</strong></p></a>
+                </div>
+                <div class="aling-self-center">
+                  <i class="fa fa-ellipsis-v lead text-dark"></i>
+                </div>
+              </div>
+                  <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/w.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/w2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <video autoplay loop muted class="video">
+                          <source  class="class="d-block w-100 src="./vid/whitechapel.mp4" type="video/mp4">
+                      </video>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+              <div class="card-body">
+                <div class="d-flex">
+                  <div class="flex-grow-1">
+                    <i class="far fa-heart lead me-3"></i>
+                    <i class="far fa-comment lead me-3"></i>
+                    <i class="far fa-paper-plane lead me-3"></i>
+                  </div>
+                  <div>
+                    <i class="far fa-bookmark lead me-3"></i>
+                  </div>
+                </div>
+                <p class="font-weight-bold"><strong>1,200 Me gusta</strong></p>
+                <p class="mb-0"><a href="" class="text-dark text-decoration-none font-weight-bold"><strong>whitechapelband</strong></a> We are thankful the weather held off just long enough for us to squeeze our set in at @welcometorockville yesterday. If you were there for it thanks for joining us and making it a great time.</p>
+                <div class="d-flex mb-3">
+                  <p class="flex-grow-1 mb-0"><a class="text-dark text-decoration-none font-weight-bold"><b>jheech</b></a> AWESOME SHOW!!</p>
+                  <i class="far fa-heart"></i>
+                </div>
+                <small class="d-block text-muted text-upercase">Hace 22 minutos</small>
+              </div>
+                <div class="d-flex border-top py-3 px-2">
+                  <input type="text" class="form-control border-0" placeholder="Agrega un comentario...">
+                  <button type="submit" class="btn btn-link text-decoration-none font-weight-bold">Publicar</button>
+                </div>
+              </div>
+<!--     -->
+            <div class="card mb-4">
+              <div class="card-body d-flex">
+                <div class="d-flex flex-grow-1">
+                <div class="profile-pictureS rounded-circle me-3"></div>
+                   <a href="#" class="text-dark text-decoration-none font-weight-bold "><p><strong>skullscollection</strong></p></a>
+                </div>
+                <div class="aling-self-center">
+                  <i class="fa fa-ellipsis-v lead text-dark"></i>
+                </div>
+              </div>
+                  <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <video autoplay loop muted class="video">
+                          <source  class="class="d-block w-100 src="./vid/skull.mp4" type="video/mp4">
+                      </video>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/s.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/s2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+              <div class="card-body">
+                <div class="d-flex">
+                  <div class="flex-grow-1">
+                    <i class="far fa-heart lead me-3"></i>
+                    <i class="far fa-comment lead me-3"></i>
+                    <i class="far fa-paper-plane lead me-3"></i>
+                  </div>
+                  <div>
+                    <i class="far fa-bookmark lead me-3"></i>
+                  </div>
+                </div>
+                <p class="font-weight-bold"><strong>558 Me gusta</strong></p>
+                <p class="mb-0"><a href="" class="text-dark text-decoration-none font-weight-bold"><strong>skullscollection</strong></a> Did you order dessert? Bon appetit. Digital work by @kevryancg</p>
+                <div class="d-flex mb-3">
+                  <p class="flex-grow-1 mb-0"><a class="text-dark text-decoration-none font-weight-bold"><b>dreamland_tattoo</b></a>Subirán más contenido así?!</p>
+                  <i class="far fa-heart"></i>
+                </div>
+                <small class="d-block text-muted text-upercase">Hace 5 horas</small>
+              </div>
+                <div class="d-flex border-top py-3 px-2">
+                  <input type="text" class="form-control border-0" placeholder="Agrega un comentario...">
+                  <button type="submit" class="btn btn-link text-decoration-none font-weight-bold">Publicar</button>
+                </div>
+              </div>
+      </div> <!--   Cierra historias  -->
+<!--  Card derecho   -->
+      <div class="col-lg-4">
+        <div class="d-flex mb-4">
+          <div class="profile-pictureW rounded-circle me-3"></div>
+          <div>
+            <a href="perfil.html" class="d-block text-dark text-decoration-none mb-0"><b><small>whitechapelband</small></b></a>
+            <small class="text-muted ">Whitechapel</small>
+          </div>
+        </div>
+<!--  Stories  -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="d-flex">
+              <p class="text-muted flex-grow-1"><b>Stories</b></p>
+              <small><a href="" class="text-decoration-none">Ver todas</a></small>
+            </div>
+
+            <div class="stories-container">
+              <div class="d-flex mb-4">
+                <div class="profile-pictureMGS rounded-circle me-3"></div>
+                <div>
+                  <a href="" class="d-block text-dark text-decoration-none"><b>metalgearmemes_</b></a>
+                  <small class="text-upercase text-muted">hace 2 horas</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="stories-container">
+              <div class="d-flex mb-4">
+                <div class="profile-pictureS rounded-circle me-3"></div>
+                <div>
+                  <a href="" class="d-block text-dark text-decoration-none"><b>skullcolection</b></a>
+                  <small class="text-upercase text-muted">hace 4 horas</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="stories-container">
+              <div class="d-flex">
+                <div class="profile-picture rounded-circle me-3"></div>
+                <div>
+                  <a href="" class="d-block text-dark text-decoration-none"><b>deportivosmexico</b></a>
+                  <small class="text-upercase text-muted">hace 4 horas</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--  Card sugerencias  -->
+         <div class="card mb-4">
+          <div class="card-body">
+            <div class="d-flex">
+              <p class="text-muted flex-grow-1"><b>Sugerencias para ti</b></p>
+              <small><a href="" class="text-decoration-none text-dark">Ver todo</a></small>
+            </div>
+
+           
+              <div class="d-flex mb-4">
+                <div class="profile-picturePunch rounded-circle me-3"></div>
+                <div>
+                  <a href="" class="d-block text-dark text-decoration-none"><b>punchsdhell</b></a>
+                  <small class="text-muted">Nuevo en instagram</small>
+                </div>
+                <div class="d-flex flex-grow-1">
+                  <a class="ms-auto text-decoration-none" href="#"><b>Seguir</b></a>
+                </div>
+            </div>
+
+          
+              <div class="d-flex mb-4">
+                <div class="profile-pictureBD rounded-circle me-3"></div>
+                <div>
+                  <a href="" class="d-block text-dark text-decoration-none"><b>biodeathofficial</b></a>
+                  <small class="text-muted">Nuevo en instagram</small>
+                </div>
+                <div class="d-flex flex-grow-1">
+                  <a class="ms-auto text-decoration-none" href="#"><b>Seguir</b></a>
+                </div>
+            </div>
+
+         
+              <div class="d-flex mb-4">
+                <div class="profile-pictureH rounded-circle me-3"></div>
+                <div>
+                  <a href="" class="d-block text-dark text-decoration-none"><b>mrh</b></a>
+                  <small class="text-muted">Nuevo en instagram</small>
+                </div>
+                <div class="d-flex flex-grow-1">
+                  <a class="ms-auto text-decoration-none" href="#"><b>Seguir</b></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <small class="text-muted">© 2022 INSTAGRAM FROM META</small>
+      </div>
+     </div>
+   </div>
+   <footer>
+     <small class="text-muted">© 2022 INSTAGRAM FROM META</small>
+   </footer>
+ </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  </body>
+</html>
